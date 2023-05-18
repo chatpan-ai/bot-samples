@@ -1,0 +1,26 @@
+{
+  "type": "EXPERT",
+  "name": "WeatherTest",
+  "summary": "WeatherTest",
+  "defaultAnswer": "Weather Not Found",
+  "botClassNameList": [
+    "com.yt.apps.taotie.bot.PostBot",
+    "com.yt.apps.taotie.bot.OpenAiChatCompletionBot",
+    "com.yt.apps.taotie.bot.PostBot"
+  ],
+  "botConfList": [
+    {
+      "name": "buildPrompt",
+      "url": "<YOUR_HOST>/chatpan/buildPrompt"
+    },
+    {
+      "temperature": 0.5
+    },
+    {
+      "name": "requestWeather",
+      "url": "<YOUR_HOST>/chatpan/requestWeather"
+    }
+  ],
+  "prompt": "",
+  "hint": "请回答："
+}
